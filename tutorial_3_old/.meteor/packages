@@ -21,3 +21,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 react-meteor-data
 session
 kadira:flow-router
+accounts-ui
+accounts-facebook
+service-configuration

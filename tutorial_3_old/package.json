@@ -10,6 +10,7 @@
     "react": "^0.14.8",
     "react-addons-pure-render-mixin": "^0.14.3",
     "react-dom": "^0.14.6",
+    "react-flatui": "0.0.7",
     "react-mounter": "^1.0.0",
     "react-tap-event-plugin": "^0.2"
   }

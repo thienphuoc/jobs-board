@@ -5,12 +5,8 @@ import { mount } from 'react-mounter';
 
 import App from '../imports/ui/App.jsx';
 
-
-// Meteor.startup(()=>{
-// 	render(<App />, document.getElementById('render-target'));
-// });
-
 FlowRouter.route('/',{
+	name: 'home',
 	action(){
 		mount(MainLayout , {content:(<BlogHome/>)});
 	}
@@ -19,6 +15,6 @@ FlowRouter.route('/',{
 FlowRouter.route('/xxxx',{
 	name: 'phuoc',
 	action(){
-		mount(MainLayout , {content:(<App/>) });
+		mount(MainLayoutContent , {content:(<App/>) });
 	}
 });
